@@ -1,0 +1,62 @@
+/* General Body Styles */
+body {
+    background-color: #7760ba; /* A brown-orange background color */
+    font-family: Arial, sans-serif; /* Set default font */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 50px; /* Add top margin */
+    background-color: cornflowerblue; /* White background for the container */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Home Button Styles */
+.btn-home {
+    background-color: aqua; /* Black background for the home button */
+    color: rgb(13, 119, 146); /* White text color */
+    border-radius: 25%; /* Rounded button */
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    position: absolute; /* Position absolutely */
+    top: 20px; /* Position from top */
+    right: 20px; /* Position from right */
+    font-size: 20px; /* Larger font size */
+    text-decoration: none; /* Remove underline from text */
+}
+
+/* Button Styles */
+.btn-custom {
+    background-color: deeppink; /* Green background for custom buttons */
+    color: white; /* White text color */
+}
+
+.btn-edit {
+    background-color: rgb(179, 205, 49); /* Light blue background for edit buttons */
+    color: rgb(255, 255, 255); /* White text color */
+}
+
+.btn-delete {
+    background-color: burlywood; /* Red background for delete buttons */
+    color: rgb(121, 27, 136); /* White text color */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full-width table */
+    text-align: center;
+}
+
+th, td {
+    text-align: left; /* Align text to the left */
+    padding: 8px; /* Add padding */
+    text-align: center;
+}
+
+th {
+    background-color: bisque; /* Light gray background for table headers */
+}
